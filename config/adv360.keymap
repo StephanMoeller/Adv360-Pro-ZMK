@@ -44,7 +44,7 @@ SQB_E
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0       &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp R    &kp P      &kp B  &none                                                            &none &kp K  &kp L  &kp O     &kp U    &kp U        &kp BSLH
-        &kp ESC   &kp F     &kp A    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp M  &kp N  &kp E     &kp I    &kp Y        &kp SQT
+        &kp ESC   &kp F     &kp A    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp M  &kp N  &kp E     &kp I    &kp Y        &kp SQT  
         &kp LSHFT &kp Z     &kp X    &kp C    &kp D      &kp V                            &kp HOME &kp PG_UP                           &kp J  &kp H  &kp COMMA &kp DOT  &kp KP_MINUS &kp RSHFT
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &lt 2 ENTER &kp DEL   &kp END  &kp PG_DN &kp SPACE &lt 1 SPACE          &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2        
       >;
@@ -53,10 +53,10 @@ SQB_E
       display-name = "Kp";
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0       &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp R    &kp P      &kp B  &none                                                            &none &kp K  &kp L  &kp O     &kp U    &kp U        &kp BSLH   
-        &kp ESC   &kp F     &kp A    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp M  &kp N  &kp E     &kp I    &kp Y        &kp SQT    
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp D      &kp V                            &kp HOME &kp PG_UP                           &kp J  &kp H  &kp COMMA &kp DOT  &kp KP_MINUS &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &lt 2 ENTER &kp DEL   &kp END  &kp PG_DN &kp SPACE &lt 1 SPACE          &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2         
+        &kp TAB   &kp Q     &kp W    &kp R    &kp P      &kp B  &none                                                            &none &kp K  &kp L  &kp O     &kp U    &kp U        &kp BSLH  
+        &kp ESC   &kp F     &kp A    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp M  &kp N  &kp E     &kp I    &kp Y        &kp SQT   
+        &trans &kp X   &kp DK_HASH &kp DK_SQB_B &kp DK_SQB_E &kp DK_SNAB                                  &kp HOME &kp PG_UP                &trans &trans &trans &trans  &trans  &trans 
+        &mo 2  &trans     &trans      &trans       &trans                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0                 &trans &trans &trans  &trans  &trans        
       >;
     };
     fn {
