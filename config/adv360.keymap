@@ -53,9 +53,9 @@ SQB_E
       display-name = "Kp";
       bindings = <
         &trans &trans     &trans      &trans       &trans       &trans     &trans                                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12L
-        &trans &kp LS(N1) &kp LESS    &kp LS(N3)   &kp LS(LESS) &kp LS(5)  &trans                                                           &none &trans &trans &trans &trans  &trans  &trans 
+        &trans &kp LS(N1) &kp X    &kp LS(N3)   &kp LS(LESS) &kp LS(5)  &trans                                                           &none &trans &trans &trans &trans  &trans  &trans 
         &trans &kp RA(N2) &kp RA(N7)  &kp LS(N8)   &kp LS(N9)   &kp RA(N0) &trans              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL       &none &trans &trans &trans &trans  &trans  &trans 
-        &trans &kp LESS   &kp DK_HASH &kp DK_SQB_B &kp DK_SQB_E &kp DK_SNAB                                  &kp HOME &kp PG_UP                   &trans &trans &trans &trans  &trans  &trans 
+        &trans &kp X   &kp DK_HASH &kp DK_SQB_B &kp DK_SQB_E &kp DK_SNAB                                  &kp HOME &kp PG_UP                   &trans &trans &trans &trans  &trans  &trans 
         &mo 2  &trans     &trans      &trans       &trans                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0                       &trans &trans &trans  &trans  &trans 
       >;
     };
