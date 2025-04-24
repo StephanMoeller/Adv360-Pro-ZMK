@@ -75,11 +75,11 @@ SQB_E
     arrows {
       display-name = "Kp";
       bindings = <
-        ______ ______      ______           ______          ______          ______     ______                                                      ______ ______         ______         ______          ______         ______        ______ 
-        ______ &kp LS(N1)  &kp DK_LT        &kp LS(N0)      &kp DK_GT       &kp LS(N5) ______                                                      ______ &kp LS(N7)     &kp HOME       &hm LGUI  UP    &kp END        &kp LS(MINUS) ______ 
-        ______ &kp RA(N2)  &hm LALT RA(N7)  &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0) ______              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL  ______ &kp PG_UP      &hm LSFT LEFT  &hm LCTL DOWN   &hm LALT RIGHT &kp PG_DN     ______ 
-        ______ &kp DK_BACK &kp LS(N3)       &kp RA(8)       &kp RA(N9)      &kp RA(N2)                               &kp HOME &kp PG_UP                   &kp RA(EQUAL)  &kp TAB        &kp LS(N2)      &kp ESC        &kp MINUS     ______ 
-        ______ ______      ______           ______          ______                &lt NUMBERS SPACE &kp DEL   &kp END  &kp PG_DN &kp ENTER ______                        ______         ______          ______         ______        ______        
+        ______ ______      ______           ______          ______          ______     ______                                                      ______ ______         ______    ______     ______    ______        ______ 
+        ______ &kp LS(N1)  &kp DK_LT        &kp LS(N0)      &kp DK_GT       &kp LS(N5) ______                                                      ______ &kp LS(N7)     &kp HOME  &kp UP     &kp END   &kp LS(MINUS) ______ 
+        ______ &kp RA(N2)  &hm LALT RA(N7)  &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0) ______              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL  ______ &kp PG_UP      &kp LEFT  &kp DOWN   &kp RIGHT &kp PG_DN     ______ 
+        ______ &kp DK_BACK &kp LS(N3)       &kp RA(8)       &kp RA(N9)      &kp RA(N2)                               &kp HOME &kp PG_UP                   &kp RA(EQUAL)  &kp TAB   &kp LS(N2) &kp ESC   &kp MINUS     ______ 
+        ______ ______      ______           ______          ______                &lt NUMBERS SPACE &kp DEL   &kp END  &kp PG_DN &kp ENTER ______                        ______    ______     ______    ______        ______        
       >;
     };
     numbers {
