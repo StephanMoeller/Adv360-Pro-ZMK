@@ -50,12 +50,12 @@ SQB_E
       >;
     };
     arrows {
-      display-name = "Kp";
+      display-name = "Kp";˛@{(€)}({()}đ€€đ€€€đ€đ€e
       bindings = <
         &trans &trans     &trans      &trans       &trans     &trans     &trans                                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
         &trans &kp LS(N1) &kp LT      &kp LS(N3)   &kp LS(LT) &kp LS(N5)&trans                                                         &trans &trans &trans &trans &trans  &trans  &trans 
         &trans &kp RA(N2) &kp RA(N7)  &kp LS(N8)   &kp LS(N9) &kp RA(N0) &trans              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL    &trans &trans &trans &trans &trans  &trans  &trans 
-        &trans &kp RA(LT) &kp LS(3)   &kp RA(8)    &kp RA(9)  &kp RA(2)                                  &kp HOME &kp PG_UP                   &trans &trans &trans &trans  &trans  &trans 
+        &trans &kp BACKSLASH &kp LS(3)   &kp RA(8)    &kp RA(9)  &kp RA(2)   ;;##;;;;;;;;ien                               &kp HOME &kp PG_UP                   &trans &trans &trans &trans  &trans  &trans 
         &mo 2  &trans     &trans      &trans       &trans                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0                   &trans &trans &trans  &trans  &trans        
       >;
     };
