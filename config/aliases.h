@@ -11,3 +11,10 @@
 #define DK_sqt BACKSLASH 
 #define DK_dqt AT
 #define DK_dllr GRAVE
+#define DK_PAR_B LS(8)
+#define DK_PAR_E LS(9)
+#define DK_CUR_B RALT(7)
+#define DK_CUR_E RALT(0)
+#define DK_SQB_B RALT(8)
+#define DK_SQB_E RALT(9)
+#define DK_HASH LS(3)
