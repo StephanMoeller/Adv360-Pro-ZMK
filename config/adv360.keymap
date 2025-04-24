@@ -45,8 +45,8 @@ SQB_E
         combo_j { timeout-ms = <30>; key-positions = <17 18>; bindings = <&kp J>; };
         combo_v { timeout-ms = <30>; key-positions = <32 33> bindings = <&kp V>; };
         combo_ae { timeout-ms = <30>; key-positions = <24 25>; bindings = <&kp SEMI>; };
-        combo_ae { timeout-ms = <30>; key-positions = <24 26>; bindings = <&kp SQT>; };
-        combo_ae { timeout-ms = <30>; key-positions = <25 26>; bindings = <&kp LBKT>; };
+        combo_oe { timeout-ms = <30>; key-positions = <24 26>; bindings = <&kp SQT>; };
+        combo_aa { timeout-ms = <30>; key-positions = <25 26>; bindings = <&kp LBKT>; };
       };
 
       conditional_layers {
