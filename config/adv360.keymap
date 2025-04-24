@@ -55,11 +55,11 @@ SQB_E
     default_layer {
       display-name = "Base";
       bindings = <
-        &trans    &trans    &trans   &trans   &trans     &trans &mo BOOTL                                                         &mo BOOTL &trans &trans &trans    &trans   &trans       &trans 
-        &trans    &kp Q     &kp W    &kp R    &kp P      &kp B  &none                                                             &none     &kp K  &kp L  &kp O     &kp U    &kp BSLH     &trans
-        &trans    &kp F     &kp A    &kp S    &hm LSHIFT T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL     &none     &kp M  &kp N  &kp E     &kp I    &kp Y        &trans  
-        &trans    &kp Z     &kp X    &kp C    &kp D      &kp V                            &kp HOME &kp PG_UP                                &kp J  &kp H  &kp COMMA &kp DOT  &kp KP_MINUS &trans
-        &trans    &trans    &trans   &trans   &trans                &lt NUMBERS ENTER &kp DEL   &kp END  &kp PG_DN &kp SPACE &lt ARROWS SPACE      &trans &trans    &trans   &trans       &trans        
+        &trans    &trans    &trans      &trans      &trans     &trans &mo BOOTL                                                         &mo BOOTL &trans &trans &trans    &trans   &trans       &trans 
+        &trans    &kp Q     &kp W       &kp R       &kp P      &kp B  &none                                                             &none     &kp K  &kp L  &kp O     &kp U    &kp BSLH     &trans
+        &trans    &kp F     &hm LALT A  &hm LCTL S  &hm LSFT T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL     &none     &kp M  &kp N  &kp E     &kp I    &kp Y        &trans  
+        &trans    &kp Z     &kp X       &kp C       &kp D      &kp V                            &kp HOME &kp PG_UP                                &kp J  &kp H  &kp COMMA &kp DOT  &kp KP_MINUS &trans
+        &trans    &trans    &trans      &trans      &trans                &lt NUMBERS ENTER &kp DEL   &kp END  &kp PG_DN &kp SPACE &lt ARROWS SPACE      &trans &trans    &trans   &trans       &trans        
       >;
     };
     
