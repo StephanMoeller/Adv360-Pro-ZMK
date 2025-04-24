@@ -39,7 +39,6 @@ SQB_E
 // todo: homerow mods, right side on arrow layer, number layer, double layer, boot as combo, æåø as combo
   keymap {
     compatible = "zmk,keymap";
- +|§§§§§§
     default_layer {
       display-name = "Base";
       bindings = <
