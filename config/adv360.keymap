@@ -80,7 +80,7 @@ SQB_E
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &kp N7 &kp N8 &kp N9 &trans  &trans
         &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &kp N4 &kp N5 &kp N6 &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &kp N1 &kp N2 &kp N3 &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &lt ARROWS          &trans &trans &trans &trans  &trans
+        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &lt ARROWS N0       &trans &trans &trans &trans  &trans
       >;
     };
     fkeys {
