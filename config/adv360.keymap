@@ -42,11 +42,12 @@ SQB_E
 
       combos {
         compatible = "zmk,combos";
-        combo_j { timeout-ms = <30>; key-positions = <16 17>; bindings = <&kp J>; };
-        combo_v { timeout-ms = <30>; key-positions = <31 32>; bindings = <&kp V>; };
-        combo_ae { timeout-ms = <30>; key-positions = <23 24>; bindings = <&kp SEMI>; };
-        combo_oe { timeout-ms = <30>; key-positions = <23 25>; bindings = <&kp SQT>; };
-        combo_aa { timeout-ms = <30>; key-positions = <24 25>; bindings = <&kp LBKT>; };
+        combo_j { timeout-ms = <50>; key-positions = <16 17>; bindings = <&kp J>; };
+        combo_v { timeout-ms = <50>; key-positions = <31 32>; bindings = <&kp V>; };
+        combo_ae { timeout-ms = <50>; key-positions = <23 24>; bindings = <&kp SEMI>; };
+        combo_oe { timeout-ms = <50>; key-positions = <23 25>; bindings = <&kp SQT>; };
+        combo_aa { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LBKT>; };
+        combo_alt_f4 { timeout-ms = <50>; key-positions = <32 37>; bindings = <&kp LA(F4)>; };
       };
 
       conditional_layers {
