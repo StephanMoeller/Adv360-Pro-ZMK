@@ -12,10 +12,10 @@
 #define DK_dqt AT
 #define DK_dllr GRAVE
 #define DK_PAR_B LS(8)
-#define DK_PAR_E AMPS
-#define DK_CUR_B AMPS
-#define DK_CUR_E AMPS
-#define DK_SQB_B AMPS
-#define DK_SQB_E AMPS
-#define DK_HASH AMPS
-#define DK_SNAB AMPS
+#define DK_PAR_E LS(9)
+#define DK_CUR_B RA(7)
+#define DK_CUR_E RA(0)
+#define DK_SQB_B RA(8)
+#define DK_SQB_E RA(9)
+#define DK_HASH LS(3)
+#define DK_SNAB RA(2)
