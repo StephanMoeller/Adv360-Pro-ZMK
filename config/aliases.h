@@ -19,3 +19,6 @@
 #define DK_SQB_E RA(9)
 #define DK_HASH LS(3)
 #define DK_SNAB RA(2)
+#define DK_BACK RA(NON_US_BACKSLASH)
+#define DK_LT NON_US_BACKSLASH
+#define DK_GT LS(NON_US_BACKSLASH)
