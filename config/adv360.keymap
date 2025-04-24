@@ -17,7 +17,7 @@ SQB_B
 SQB_E 
 
 */
-
+#define ______ &trans
 // BSPC
 #define BASE 0
 #define ARROWS 1
@@ -55,52 +55,52 @@ SQB_E
     default_layer {
       display-name = "Base";
       bindings = <
-        &trans    &trans    &trans      &trans      &trans     &trans &mo BOOTL                                                         &mo BOOTL &trans &trans     &trans      &trans      &trans       &trans 
-        &trans    &kp Q     &kp W       &kp R       &kp P      &kp B  &none                                                             &none     &kp K  &kp L      &kp O       &kp U       &kp BSLH     &trans
-        &trans    &kp F     &hm LALT A  &hm LCTL S  &hm LSFT T &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL            &none     &kp M  &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y        &trans  
-        &trans    &kp Z     &kp X       &kp C       &kp D      &kp V                            &kp HOME &kp PG_UP                                &kp J  &kp H      &kp COMMA   &kp DOT     &kp KP_MINUS &trans
-        &trans    &trans    &trans      &trans      &trans                &lt NUMBERS ENTER &kp DEL   &kp END  &kp PG_DN &kp SPACE &lt ARROWS SPACE      &trans     &trans      &trans      &trans       &trans        
+        ______    ______    ______      ______      ______     ______ &mo BOOTL                                                         &mo BOOTL ______ ______     ______      ______      ______       ______ 
+        ______    &kp Q     &kp W       &kp R       &kp P      &kp B  ______                                                             ______     &kp K  &kp L      &kp O       &kp U       &kp BSLH     ______
+        ______    &kp F     &hm LALT A  &hm LCTL S  &hm LSFT T &kp G  ______           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL            ______     &kp M  &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y        ______  
+        ______    &kp Z     &kp X       &kp C       &kp D      &kp V                            &kp HOME &kp PG_UP                                &kp J  &kp H      &kp COMMA   &kp DOT     &kp KP_MINUS ______
+        ______    ______    ______      ______      ______                &lt NUMBERS ENTER &kp DEL   &kp END  &kp PG_DN &kp SPACE &lt ARROWS SPACE      ______     ______      ______      ______       ______        
       >;
     };
     
     arrows {
       display-name = "Kp";
       bindings = <
-        &trans &trans      &trans           &trans          &trans          &trans     &trans                                                      &trans &trans         &trans         &trans          &trans          &trans        &trans 
-        &trans &kp LS(N1)  &kp DK_LT        &kp LS(N0)      &kp DK_GT       &kp LS(N5) &trans                                                      &trans &kp LS(N7)     &kp HOME       &kp UP          &kp END         &kp LS(MINUS) &trans 
-        &trans &kp RA(N2)  &hm LALT RA(N7)  &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0) &trans              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL  &trans &kp PG_UP      &hm LSFT LEFT  &hm LCTL DOWN   &hm LALT RIGHT  &kp PG_DN     &trans 
-        &trans &kp DK_BACK &kp LS(N3)       &kp RA(8)       &kp RA(N9)      &kp RA(N2)                               &kp HOME &kp PG_UP                   &kp RA(EQUAL)  &kp TAB        &kp LS(N2)      &kp ESC         &kp MINUS     &trans 
-        &trans  &trans      &trans          &trans          &trans                &lt NUMBERS SPACE &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0                        &trans &trans &trans &trans  &trans        
+         ______      ______           ______          ______          ______     ______                                                      ______ ______         ______         ______          ______          ______        ______ 
+        ______ &kp LS(N1)  &kp DK_LT        &kp LS(N0)      &kp DK_GT       &kp LS(N5) ______                                                      ______ &kp LS(N7)     &kp HOME       &kp UP          &kp END         &kp LS(MINUS) ______ 
+        ______ &kp RA(N2)  &hm LALT RA(N7)  &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0) ______              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL  ______ &kp PG_UP      &hm LSFT LEFT  &hm LCTL DOWN   &hm LALT RIGHT  &kp PG_DN     ______ 
+        ______ &kp DK_BACK &kp LS(N3)       &kp RA(8)       &kp RA(N9)      &kp RA(N2)                               &kp HOME &kp PG_UP                   &kp RA(EQUAL)  &kp TAB        &kp LS(N2)      &kp ESC         &kp MINUS     ______ 
+        ______  ______      ______          ______          ______                &lt NUMBERS SPACE &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0                        ______ ______ ______ ______  ______        
       >;
     };
     numbers {
       display-name = "Fn";
       bindings = <
-        &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &kp N7 &kp N8 &kp N9 &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &kp N4 &kp N5 &kp N6 &trans  &trans
-        &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &kp N1 &kp N2 &kp N3 &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &lt ARROWS N0       &trans &trans &trans &trans  &trans
+        ______ ______ ______ ______ ______ ______  ______                                           ______ ______ ______ ______ ______ ______  ______
+        ______ ______ ______ ______ ______ ______  ______                                           ______ ______ &kp N7 &kp N8 &kp N9 ______  ______
+        ______ ______ ______ ______ ______ ______  ______        ______ ______ ______ ______        ______ ______ &kp N4 &kp N5 &kp N6 ______  ______
+        ______ ______ ______ ______ ______ ______                      ______ ______                     ______ &kp N1 &kp N2 &kp N3 ______  ______
+        ______ ______ ______ ______ ______               ______ ______ ______ ______ ______ &lt ARROWS N0       ______ ______ ______ ______  ______
       >;
     };
     fkeys {
       display-name = "Fn";
       bindings = <
-        &trans  &trans &trans &trans &trans  &trans  &none                                           &none &trans &trans   &trans   &trans   &trans  &trans
-        &trans  &kp F7 &kp F8 &kp F9 &kp F10 &trans  &none                                           &none &trans &trans   &trans   &trans   &trans  &trans
-        &kp F12 &kp F4 &kp F5 &kp F6 &kp F11 &trans  &none        &trans &trans &trans &trans        &none &trans &kp BKSP &kp BKSP &kp BKSP &trans  &trans
-        &trans  &kp F1 &kp F2 &kp F3 &trans  &trans                      &trans &trans                     &trans &kp DEL  &kp DEL  &kp DEL  &trans  &trans
-        &trans  &trans &trans &trans &trans               &trans &trans &trans &trans &trans &kp N0              &trans &trans &trans &trans  &trans
+        ______  ______ ______ ______ ______  ______  ______                                           ______ ______ ______   ______   ______   ______  ______
+        ______  &kp F7 &kp F8 &kp F9 &kp F10 ______  ______                                           ______ ______ ______   ______   ______   ______  ______
+        &kp F12 &kp F4 &kp F5 &kp F6 &kp F11 ______  ______        ______ ______ ______ ______        ______ ______ &kp BKSP &kp BKSP &kp BKSP ______  ______
+        ______  &kp F1 &kp F2 &kp F3 ______  ______                      ______ ______                     ______ &kp DEL  &kp DEL  &kp DEL  ______  ______
+        ______  ______ ______ ______ ______               ______ ______ ______ ______ ______ &kp N0              ______ ______ ______ ______  ______
       >;
     };
     mod {
       display-name = "Mod";
       bindings = <
-        &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                     &trans                 &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none        &none        &bootloader                                                               &bootloader            &none        &none        &none        &none &none &none
-        &studio_unlock &none        &none        &none        &none        &none        &none                   &none &none &bt BT_CLR &none                      &stp STP_BAT &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &macro_ver   &none                                      &none &none                                                        &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
+        ______ &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 ______                                                                     ______                 ______        ______        ______        ______ ______ ______
+        ______ ______       ______       ______       ______       ______       &bootloader                                                               &bootloader            ______        ______        ______        ______ ______ ______
+        &studio_unlock ______        ______        ______        ______        ______        ______                   ______ ______ &bt BT_CLR ______                      &stp STP_BAT ______        ______        ______        ______ ______ ______
+        ______ ______        ______        ______        &macro_ver   ______                                      ______ ______                                                        ______        ______        ______        ______ ______ ______
+        ______ ______        ______        ______        ______                                       ______ ______ ______ ______      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   ______ ______ ______
       >;
     };
     extra1 { 
