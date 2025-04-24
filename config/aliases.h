@@ -18,3 +18,4 @@
 #define DK_SQB_B RALT(8)
 #define DK_SQB_E RALT(9)
 #define DK_HASH LS(3)
+#define DK_SNAB RALT(2)
