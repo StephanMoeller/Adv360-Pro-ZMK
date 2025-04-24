@@ -11,7 +11,7 @@
 #define DK_sqt BACKSLASH 
 #define DK_dqt AT
 #define DK_dllr GRAVE
-#define DK_PAR_B AMPS
+#define DK_PAR_B LS(8)
 #define DK_PAR_E AMPS
 #define DK_CUR_B AMPS
 #define DK_CUR_E AMPS
