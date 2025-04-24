@@ -52,9 +52,9 @@ SQB_E
     arrows {
       display-name = "Kp";
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0       &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp R    &kp P      &kp B  &none                                                            &none &kp K  &kp L  &kp O     &kp U    &kp U        &kp BSLH  
-        &kp ESC   &kp F     &kp A    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp M  &kp N  &kp E     &kp I    &kp Y        &kp SQT   
+        &trans &trans     &trans      &trans       &trans       &trans     &trans                                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
+        &trans &kp LS(N1) &kp X    &kp LS(N3)   &kp LS(X) &kp LS(N5)  &trans                                                              &trans &trans &trans &trans &trans  &trans  &trans 
+        &trans &kp RA(N2) &kp RA(N7)  &kp LS(N8)   &kp LS(N9)   &kp RA(N0) &trans              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL       &trans &trans &trans &trans &trans  &trans  &trans 
         &trans &kp X   &kp DK_HASH &kp DK_SQB_B &kp DK_SQB_E &kp DK_SNAB                                  &kp HOME &kp PG_UP                &trans &trans &trans &trans  &trans  &trans 
         &mo 2  &trans     &trans      &trans       &trans                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0                 &trans &trans &trans  &trans  &trans        
       >;
