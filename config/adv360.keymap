@@ -33,6 +33,7 @@ SQB_E
           quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
+          c
       };
     };
 
@@ -52,7 +53,7 @@ SQB_E
     arrows {
       display-name = "Kp";
       bindings = <
-        &trans &trans     &trans      &trans       &trans       &trans     &trans                                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12L
+        &trans &trans     &trans      &trans       &trans       &trans     &trans                                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
         &trans &kp LS(N1) &kp X    &kp LS(N3)   &kp LS(LESS) &kp LS(5)  &trans                                                           &none &trans &trans &trans &trans  &trans  &trans 
         &trans &kp RA(N2) &kp RA(N7)  &kp LS(N8)   &kp LS(N9)   &kp RA(N0) &trans              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL       &none &trans &trans &trans &trans  &trans  &trans 
         &trans &kp X   &kp DK_HASH &kp DK_SQB_B &kp DK_SQB_E &kp DK_SNAB                                  &kp HOME &kp PG_UP                   &trans &trans &trans &trans  &trans  &trans 
