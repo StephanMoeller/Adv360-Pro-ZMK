@@ -29,7 +29,6 @@ SQB_E
     behaviors {
       #include "macros.dtsi"
       #include "version.dtsi"
-
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
@@ -42,12 +41,16 @@ SQB_E
 
       combos {
         compatible = "zmk,combos";
-        combo_j { timeout-ms = <50>; key-positions = <16 17>; bindings = <&kp J>; };
+        combo_j { timeout-ms = <50>; key-positions = <16 17>; bindings = <&kp J>; layers = <default_layer> };
         combo_v { timeout-ms = <50>; key-positions = <31 32>; bindings = <&kp V>; };
         combo_ae { timeout-ms = <50>; key-positions = <23 24>; bindings = <&kp SEMI>; };
         combo_oe { timeout-ms = <50>; key-positions = <23 25>; bindings = <&kp SQT>; };
         combo_aa { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LBKT>; };
-        combo_alt_f4 { timeout-ms = <50>; key-positions = <32 37>; bindings = <&kp LA(F4)>; };
+        combo_dash { timeout-ms = <50>; key-positions = <39 50>; bindings = <&kp SLASH>; };
+        combo_alt_f4 { timeout-ms = <50>; key-positions = <32 37>; bindings = <&kp LA(F4)>;};
+
+        combo_excl { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LS(N1)>; layers = <arrows>};
+        combo_question { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LS(MINUS)>; layers = <arrows>};
       };
 
       conditional_layers {
@@ -78,7 +81,7 @@ SQB_E
         ______ ______      ______           ______          ______          ______     ______                                                      ______ ______         ______    ______     ______    ______        ______ 
         ______ &kp LS(N1)  &kp DK_LT        &kp LS(N0)      &kp DK_GT       &kp LS(N5) ______                                                      ______ &kp LS(N7)     &kp HOME  &kp UP     &kp END   &kp LS(MINUS) ______ 
         ______ &kp RA(N2)  &hm LALT RA(N7)  &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0) ______              &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL  ______ &kp PG_UP      &kp LEFT  &kp DOWN   &kp RIGHT &kp PG_DN     ______ 
-        ______ &kp DK_BACK &kp LS(N3)       &kp RA(8)       &kp RA(N9)      &kp RA(N2)                               &kp HOME &kp PG_UP                   &kp RA(EQUAL)  &kp TAB   &kp LS(N2) &kp ESC   &kp MINUS     ______ 
+        ______ &kp DK_BACK &kp LS(N3)       &kp RA(N8)       &kp RA(N9)      &kp RA(N2)                               &kp HOME &kp PG_UP                   &kp RA(EQUAL)  &kp TAB   &kp LS(N2) &kp ESC   &kp MINUS     ______ 
         ______ ______      ______           ______          ______                &lt NUMBERS SPACE &kp DEL   &kp END  &kp PG_DN &kp ENTER ______                        ______    ______     ______    ______        ______        
       >;
     };
