@@ -41,7 +41,7 @@ SQB_E
 
       combos {
         compatible = "zmk,combos";
-        combo_j { timeout-ms = <50>; key-positions = <16 17>; bindings = <&kp J>; layers = <default_layer>;};
+        combo_j { timeout-ms = <50>; key-positions = <16 17>; bindings = <&kp J>; layers = <0>;};
         combo_v { timeout-ms = <50>; key-positions = <31 32>; bindings = <&kp V>; };
         combo_ae { timeout-ms = <50>; key-positions = <23 24>; bindings = <&kp SEMI>; };
         combo_oe { timeout-ms = <50>; key-positions = <23 25>; bindings = <&kp SQT>; };
@@ -49,8 +49,8 @@ SQB_E
         combo_dash { timeout-ms = <50>; key-positions = <39 50>; bindings = <&kp SLASH>; };
         combo_alt_f4 { timeout-ms = <50>; key-positions = <32 37>; bindings = <&kp LA(F4)>;};
 
-        combo_excl { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LS(N1)>; layers = <arrows>; };
-        combo_question { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LS(MINUS)>; layers = <arrows>; };
+        combo_excl { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LS(N1)>; layers = <1>; };
+        combo_question { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LS(MINUS)>; layers = <1>; };
       };
 
       conditional_layers {
